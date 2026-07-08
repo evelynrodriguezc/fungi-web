@@ -221,4 +221,112 @@
     white-space: nowrap;
     width: 1px;
   }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .text-brand {
+    color: var(--text-brand);
+  }
+
+  .text-main {
+    color: var(--text-main);
+  }
+
+  .section-title {
+    font-size: var(--font-size-heading-regular);
+  }
+
+  .text-high-contrast {
+    color: var(--text-high-contrast);
+  }
+
+  .text-brand-light {
+    color: var(--text-brand-light);
+  }
+
+  .background-light {
+    color: var(--background-light);
+  }
+
+  .background-accent-light {
+    color: var(--background-accent-light);
+  }
+
+  .background-base {
+    background-color: var(--background-base);
+  }
+
+  .background-accent-main {
+    color: var(--background-accent-main);
+  }
+
+  .background-accent-dark {
+    color: var(--background-accent-dark);
+  }
+
+  .background-extra-light {
+    color: var(--background-extra-light);
+  }
+
+  .background-extra-dark {
+    background-color: var(--background-extra-dark);
+  }
+
+  .background-main {
+    color: var(--background-main);
+  }
+
+  .background-dark {
+    color: var(--background-dark);
+  }
+
+  .font-size-heading-sm {
+    font-size: var(--font-size-heading-sm);
+  }
+
+  .font-size-heading-regular {
+    font-size: var(--font-size-heading-regular);
+  }
+
+  .font-size-heading-lg {
+    font-size: var(--font-size-heading-lg);
+  }
+
+  .font-size-heading-xl {
+    font-size: var(--font-size-heading-xl);
+  }
+
+  .font-size-sm {
+    font-size: var(--font-size-sm);
+  }
+
+  .font-size-rg {
+    font-size: var(--font-size-rg);
+  }
+
+  .font-size-md {
+    font-size: var(--font-size-md);
+  }
+
+  .font-size-lg {
+    font-size: var(--font-size-lg);
+  }
+
+  .font-size-xl {
+    font-size: var(--font-size-xl);
+  }
+
+  .border-radius-1 {
+    border-radius: var(--border-radius-1);
+  }
+
+  .border-radius-2 {
+    border-radius: var(--border-radius-2);
+  }
+
+  .border-radius-3 {
+    border-radius: var(--border-radius-3);
+  }
 }
