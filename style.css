@@ -180,6 +180,18 @@
 }
 
 @layer layout {
+  .section {
+    padding-block: 3.75rem; /* = 60px */
+
+    @media (min-width: 760px) {
+      padding-block: 8rem; /* = 128px */
+
+      &[data-padding="compact"] {
+        padding-block: 4.5rem; /* = 72px */
+      }
+    }
+  }
+
   .wrapper {
     --wrapper-max-width: 1130px;
 
