@@ -185,13 +185,14 @@
 
 @layer layout {
   .section {
-    padding-block: 3.75rem; /* = 60px */
+    --padding: 3.75rem; /* = 60px */
+    padding-block: var(--padding);
 
     @media (min-width: 760px) {
-      padding-block: 8rem; /* = 128px */
+      --padding: 8rem; /* = 128px */
 
       &[data-padding="compact"] {
-        padding-block: 4.5rem; /* = 72px */
+        --padding: 4.5rem; /* = 72px */
       }
     }
   }
