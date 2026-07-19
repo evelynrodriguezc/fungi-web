@@ -184,6 +184,16 @@
 }
 
 @layer layout {
+  .equal-columns {
+    display: grid;
+    gap: var(--equal-columns-gap, 1rem);
+
+    @media (width > 760px) {
+      grid-auto-flow: column;
+      grid-auto-columns: 1fr;
+    }
+  }
+
   .section {
     --padding: 3.75rem; /* = 60px */
     padding-block: var(--padding);
